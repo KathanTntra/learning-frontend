@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn Arrays</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Learn Arrays in JavaScript</h1>
+    <div class="input-section">
+      <label for="arrayInput">Enter Array Elements (comma-separated):</label>
+      <input type="text" id="arrayInput" placeholder="e.g., 1, 2, 3, 4">
+      <button onclick="processArray()">Process Array</button>
+    </div>
+    <div id="results" class="results-section">
+      <h2>Results</h2>
+      <p><strong>Original Array:</strong> <span id="originalArray"></span></p>
+      <p><strong>Array Length:</strong> <span id="arrayLength"></span></p>
+      <p><strong>First Element:</strong> <span id="firstElement"></span></p>
+      <p><strong>Last Element:</strong> <span id="lastElement"></span></p>
+      <p><strong>Reversed Array:</strong> <span id="reversedArray"></span></p>
+      <p><strong>Sorted Array:</strong> <span id="sortedArray"></span></p>
+      <p><strong>Array with Doubled Values:</strong> <span id="doubledArray"></span></p>
+    </div>
+  </div>
+  <script src="array.js"></script>
+</body>
+</html>

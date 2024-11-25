@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn Objects</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Learn Objects in JavaScript</h1>
+    <div class="input-section">
+      <label for="objectInput">Enter Object Properties (key:value pairs, comma-separated):</label>
+      <input type="text" id="objectInput" placeholder="e.g., name:John, age:30">
+      <button onclick="processObject()">Create and Process Object</button>
+    </div>
+    <div id="results" class="results-section">
+      <h2>Results</h2>
+      <p><strong>Original Object:</strong> <span id="originalObject"></span></p>
+      <p><strong>Object Keys:</strong> <span id="objectKeys"></span></p>
+      <p><strong>Object Values:</strong> <span id="objectValues"></span></p>
+      <p><strong>Object Length:</strong> <span id="objectLength"></span></p>
+      <p><strong>Updated Object (Age to 35):</strong> <span id="updatedObject"></span></p>
+      <p><strong>Accessed Property (Age):</strong> <span id="accessedProperty"></span></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

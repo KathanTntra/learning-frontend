@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn Variables</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Learn Variables in JavaScript</h1>
+    <div class="input-section">
+      <label for="variableName">Enter Variable Name:</label>
+      <input type="text" id="variableName" placeholder="e.g., myVariable">
+      
+      <label for="variableValue">Enter Variable Value:</label>
+      <input type="text" id="variableValue" placeholder="e.g., 42">
+
+      <label for="variableType">Select Variable Type:</label>
+      <select id="variableType">
+        <option value="let">let</option>
+        <option value="const">const</option>
+        <option value="var">var</option>
+      </select>
+
+      <button onclick="createVariable()">Create Variable</button>
+    </div>
+    <div id="results" class="results-section">
+      <h2>Results</h2>
+      <p><strong>Variable Declaration:</strong> <span id="declaration"></span></p>
+      <p><strong>Value:</strong> <span id="value"></span></p>
+      <p><strong>Type:</strong> <span id="type"></span></p>
+      <p><strong>Scope Info:</strong> <span id="scope"></span></p>
+      <p><strong>Can Reassign:</strong> <span id="reassignable"></span></p>
+    </div>
+  </div>
+  <script src="variables.js"></script>
+</body>
+</html>
